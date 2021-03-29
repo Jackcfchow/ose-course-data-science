@@ -15,14 +15,13 @@ dependencies:
 - linearmodels
 - respy
 - flake8
-- pytest
+- pytest==5.4.3
 - pytest-black
 - pytest-flake8
-- black
 - scipy
 - jupyterlab
 - matplotlib
-- seaborn
+- seaborn==0.10.1
 - jupyter
 - jupyter_contrib_nbextensions
 - jupyter_nbextensions_configurator
@@ -36,6 +35,8 @@ dependencies:
 - libiconv
 - rpy2
 - xlrd
+- xlwt
+- mock
 - nbsphinx
 - simplegeneric
 - nb_black
@@ -43,11 +44,15 @@ dependencies:
 - scikit-learn
 - chaospy
 - estimagic
+- parso>=0.8.0
+- pre-commit
+- pyarrow
 - pip:
     - black-nb
     - flake8-nb
     - linearmodels
     - openpyxl
+    - black==19.10b0
     - scikit-learn
     - sphinx_rtd_theme
     - nbsphinx
